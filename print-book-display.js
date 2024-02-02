@@ -11,7 +11,7 @@ const booksObserver = new MutationObserver(function(mutations_list) {
 	});
 });
 
-if(document.getElementById('main')) 
+if(document.getElementById('s-lg-guide-main')) 
 	booksObserver.observe(document.getElementById('s-lg-guide-main'), { subtree: true, childList: true });
 	
 function processBook(book) {
