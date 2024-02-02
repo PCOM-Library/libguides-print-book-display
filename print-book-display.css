@@ -1,0 +1,5 @@
+/* This CSS needs to be added for styling */
+.pcom-lg-book-catalog-link .fa-book { 
+	color: var(--pcom-dark-red); 
+	margin-right: 0.25em;
+}
